@@ -281,11 +281,11 @@ location.reload()
 
 ### Re-recap of customer requirements
 
-* user should be authenticated between applications (SSO) ✓ <!-- .element: class="fragment" -->
-* logging out from one application should log out from all applications ✓ <!-- .element: class="fragment" -->
-* user should not have more than one active session ✓ <!-- .element: class="fragment" -->
-* user locale should be the same everywhere ✓ <!-- .element: class="fragment" -->
-* [SEC] do not leak "access token" to client side ✓ <!-- .element: class="fragment" -->
+* user should be authenticated between applications (SSO) ✓ <!-- .element: class="fragment highlight-green" -->
+* logging out from one application should log out from all applications ✓ <!-- .element: class="fragment highlight-green" -->
+* user should not have more than one active session ✓ <!-- .element: class="fragment highlight-green" -->
+* user locale should be the same everywhere ✓ <!-- .element: class="fragment highlight-green" -->
+* [SEC] do not leak "access token" to client side ✓ <!-- .element: class="fragment highlight-green" -->
 
 ---
 
@@ -294,7 +294,7 @@ location.reload()
 * try to gather customer requirements as early as possible
 * think before implementing anything
 * reuse existing technologies instead of creating solutions which look simple
-  first but end up being much more complicated in the end
+  first but end up being much more complex in the end
 
 ----
 
